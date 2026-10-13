@@ -200,6 +200,21 @@
       "caution": "只写入会话标题相关的 session/title 日志事件，不触碰会话 type、标准模式/Think/Bash、模型、Agent 执行逻辑或消息内容；标题入口依赖宿主 UI 挂载点。",
       "source_reviewed": "作者公开仓库的 README、README.zh.md、package.json、cordis.patch.yml、lib 源码及本机 web profile",
       "reviewed_on": "2026-08-18"
+    },
+    {
+      "id": "dsh-version-guard",
+      "name": "dsh-version-guard",
+      "category": "development",
+      "repository": "https://github.com/skyjjgw/dsh-version-guard",
+      "package": null,
+      "install": "dsh plugin --profile web add github:skyjjgw/dsh-version-guard",
+      "license": "MIT",
+      "verification": "source-reviewed",
+      "compatibility": "DSH Web/Cordis integration; Node.js >=22.19.0. Compatibility with a specific DSH release has not been runtime-tested.",
+      "why": "Snapshots plugin versions and profile configuration and provides an independent recovery process when DSH cannot start.",
+      "caution": "Restores plugin/profile configuration, not the DSH application. Writes local composition files; explicit dependency synchronization requires network access and starts pnpm with install scripts disabled.",
+      "source_reviewed": "README.md, package.json, cordis.patch.yml, lib/host/index.js, lib/host/routes.js, lib/core/pnpm.js at 88e313df37c2b37896fd0a948844d4f614ef23e3",
+      "reviewed_on": "2026-10-13"
     }
   ]
 }

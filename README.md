@@ -45,6 +45,7 @@ GitHub 上已经有不少“大而全”的 DSH 插件目录，例如：
 | [dsh-plugin-doctor](https://github.com/zoahdev/dsh-plugin-doctor) | 发布插件前检查 manifest、patch、build、pack、全新 profile 安装 | 📖 源码/README 核验 |
 | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 把一个会话变成队长，管理可续聊的子 Agent、任务依赖和协作状态 | 📖 源码/README 核验 |
 | [dsh-plugin-workshop](https://github.com/yyyyukari/dsh-plugin-workshop) | 在 DSH Web UI 内搜索、查看、安装和管理社区插件 | 📖 源码/README 核验 |
+- [dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) — 记录插件版本与 profile 配置快照，在 DSH 无法启动时通过独立恢复页回退到已知可用配置。 源码核验；具体 DSH 版本兼容性待实测。
 
 ### 第三组：视觉、用量和技能
 
